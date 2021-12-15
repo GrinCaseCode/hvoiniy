@@ -498,11 +498,11 @@
 		padding-right: 0;
 	}
 	.billbord_purchase .title-big div:nth-child(2), .billbord_purchase .title-big {
-    font-size: 19px;
-    line-height: 39px;
+    font-size: 17px;
+    line-height: 35px;
 }
 .billbord_purchase .title-big div:nth-child(3) {
-    font-size: 30px;
+    font-size: 25px;
 }
 .breadcumbs-wrap {
 	padding: 14px 0px;
