@@ -1,0 +1,778 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1820px) {
+	.filter-main {
+		padding-right: 260px;
+	}
+	}
+@media only screen and (max-width : 1750px) {
+	.slide-billbord__right {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.slide-billbord__image {
+		height: 525px;
+	}
+	.billbord {
+		padding-top: 195px;
+		min-height: 840px;
+		background-position: left;
+	}
+	.billbord .slider-controls {
+		bottom: 35px;
+		left: 21px;
+	}
+	.title-big {
+		font-size: 44px;
+		line-height: 59px;
+	}
+	.title-big div:nth-child(2) {
+		font-size: 33px;
+	}
+	.title-big div:nth-child(3) {
+		font-size: 28px;
+	}
+	.menu {
+		height: 740px;
+	}
+	.slider-advantages {
+		padding-left: 0;
+		margin: 0 -20px;
+	}
+	.slider-advantages .item-blog {
+		margin: 0 20px;
+	}
+	.billbord_purchase {
+		padding-right: 100px;
+	}
+	.billbord_purchase .title-big div:nth-child(2), .billbord_purchase .title-big {
+		font-size: 35px;
+		line-height: 65px;
+	}
+	.billbord_purchase .title-big div:nth-child(3) {
+		font-size: 45px;
+	}
+	.item-bank {
+		height: 150px;
+	}
+	.item-mortgage:nth-child(even) .item-mortgage__info {
+		padding-left: 220px;
+		padding-right: 0px;
+	}
+	.item-mortgage .mortgage-block {
+		padding: 35px;
+	}
+	.item-mortgage .mortgage-block__value {
+		font-size: 40px;
+	}
+	.item-mortgage__info {
+		padding-left: 55px;
+	}
+	.item-mortgage .title-section {
+		font-size: 44px;
+		line-height: 61px;
+	}
+	.row_filter .row > div, .row_filter > div {
+		padding: 0 15px;
+	}
+	.row_filter .row, .row_filter {
+		margin: 0 -15px;
+	}
+	.filter-main .checkbox {
+		font-size: 14px;
+	}
+	.filter-main {
+    padding-right: 233px;
+}
+.close-filter {
+	right: 130px;
+	bottom: 30px;
+}
+.catalog .container-fluid {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+}
+@media only screen and (max-width : 1500px) {
+	.item-mortgage .mortgage-block {
+		margin-left: 15px;
+	}
+	.item-mortgage:nth-child(even) .item-mortgage__info {
+		padding-left: 172px;
+	}
+	.item-mortgage__image {
+		height: 360px;
+		max-width: 100%;
+	}
+	.checkbox label > span {
+		padding-left: 30px;
+	}
+	.row_catalog > div {
+		padding: 0 15px;
+		margin-bottom: 35px;
+	}
+	.row_catalog {
+		margin: 0 -15px;
+	}
+	.item-catalog {
+		padding: 30px;
+	}
+}
+@media only screen and (max-width : 1400px) {
+	.footer__nav {
+		font-size: 13px;
+		padding: 0 20px;
+	}
+	.footer__right {
+		padding-left: 15px;
+	}
+	.footer__bottom {
+		width: 80px;
+	}
+	.footer {
+		font-size: 13px;
+		padding-right: 80px;
+	}
+	.item-blog__image {
+		height: 400px;
+	}
+	.item-blog__content {
+		padding: 20px;
+		padding-bottom: 0;
+	}
+	.slide-billbord__image {
+		height: 460px;
+	}
+	.billbord {
+		min-height: 720px;
+	}
+	.menu {
+		height: 620px;
+	}
+	.requisites {
+		padding-left: 0;
+	}
+	.title-big {
+		font-size: 41px;
+		line-height: 54px;
+	}
+	.title-big div:nth-child(2) {
+		font-size: 28px;
+	}
+	.title-big div:nth-child(3) {
+		font-size: 25px;
+	}
+	.header__wrap {
+		padding-left: 0;
+	}
+	.header {
+		padding: 20px 0;
+	}
+	.billbord_purchase .title-big div:nth-child(2), .billbord_purchase .title-big {
+    font-size: 29px;
+    line-height: 51px;
+}
+.billbord_purchase .title-big div:nth-child(3) {
+    font-size: 40px;
+}
+.billbord p {
+	font-size: 14px;
+	line-height: 23px;
+	margin-bottom: 15px;
+}
+.billbord_purchase {
+	padding-top: 150px;
+}
+.row_banks {
+	margin: 0 -7px;
+}
+.row_banks > div {
+	padding: 0 7px;
+}
+.item-bank {
+	height: 125px;
+	margin-bottom: 14px;
+}
+.item-mortgage .mortgage-block {
+	margin-right: -35px;
+}
+.item-mortgage .mortgage-block__value {
+    font-size: 36px;
+}
+.item-mortgage .mortgage-block {
+    padding: 20px;
+}
+.filter-main {
+	padding-right: 130px;
+	padding-bottom: 104px;
+	padding-left: 0;
+}
+.filter-main .checkbox {
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.catalog .container-fluid {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.catalog {
+	padding-top: 50px;
+}
+.tags-catalog {
+	padding-right: 36px;
+}
+.tags-catalog a {
+	font-size: 11px;
+	padding: 0 17px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.logo img {
+		width: 210px;
+	}
+	.btn-main {
+		padding: 0 40px;
+	}
+	.title-big {
+		font-size: 37px;
+		line-height: 50px;
+	}
+	.title-big div:nth-child(2) {
+		font-size: 24px;
+	}
+	.title-big div:nth-child(3) {
+		font-size: 20px;
+	}
+	.title-section {
+		font-size: 43px;
+		line-height: 54px;
+	}
+	.slider-advantages .item-blog {
+		margin: 0 7px;
+	}
+	.slider-advantages {
+		margin: 0 -7px;
+	}
+	.item-blog__image {
+		height: 325px;
+	}
+	.left-slider {
+		padding-top: 80px;
+	}
+	.advantages {
+		padding: 60px 0;
+	}
+	.footer__nav {
+		font-size: 11px;
+		padding: 0 6px;
+	}
+	.contact-item .icon-main {
+		display: none;
+	}
+	.bottom-email {
+		margin: 0;
+	}
+	.mortgage-block__value {
+    font-size: 44px;
+    line-height: 58px;
+}
+.mortgage {
+	padding-left: 25px;
+}
+.item-mortgage .mortgage-block__value {
+    font-size: 31px;
+}
+.item-mortgage {
+	font-size: 14px;
+	line-height: 23px;
+}
+.item-mortgage:nth-child(even) .item-mortgage__info {
+    padding-left: 100px;
+}
+.item-mortgage .title-section {
+    font-size: 38px;
+    line-height: 53px;
+}
+.mortgage-block {
+	margin-top: -10px;
+	margin-left: 15px;
+}
+.irs--flat .irs-grid-text {
+	font-size: 14px;
+}
+.result-filter {
+	margin-right: 15px;
+}
+.bottom-filter .btn-main i {
+	margin-right: 15px;
+	margin-left: -15px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header-center .btn-main {
+		display: none;
+	}
+	.phone-main {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.header-center__left {
+		margin: 0;
+	}
+	.header-center .link-page {
+		display: none;
+	}
+	.menu-wrap {
+		display: none;
+	}
+	.header__wrap {
+		padding-right: 50px;
+	}
+	.sandwich {
+		width: 70px;
+		height: 70px;
+		padding-top: 20px;
+		background-color: transparent;
+	}
+	.logo img {
+		width: 150px;
+	}
+	.billbord {
+		padding-top: 105px;
+		padding-bottom: 40px;
+		min-height: initial;
+		background-position: left center;
+	}
+
+	.slide-billbord .row > div:nth-child(2) {
+		order: -2;
+	}
+	.slide-billbord__right {
+		padding-left: 45px;
+	}
+	.slide-billbord__right .btn-main {
+		display: none;
+	}
+	.sandwich span {
+		background: #15615C;
+	}
+	.title-big {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.title-big div:nth-child(2) {
+		font-size: 18px;
+	}
+	.title-big div:nth-child(3) {
+		font-size: 15px;
+	}
+	.container,
+	.container-fluid {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	.billbord .slider-controls {
+		bottom: 0;
+		right: 0;
+		left: 45px;
+	}
+	.slider-billbord  {
+		padding-bottom: 120px;
+	}
+	.slider-controls {
+		display: flex;
+		justify-content: center;
+	}
+	.header .container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.info-line {
+		display: none;
+	}
+	.title-section {
+		font-size: 25px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.left-slider .title-section {
+		margin-bottom: 25px;
+	}
+	.left-slider {
+		padding-top: 0;
+	}
+	.advantages {
+		padding: 50px 0;
+	}
+	.slider-advantages {
+		margin-right: -55px;
+	}
+	.left-slider .bottom-slider {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.advantages .col-lg-4 {
+		position: static;
+	}
+	.advantages .row {
+		position: relative;
+	}
+	.slider-advantages {
+		padding-bottom: 140px;
+	}
+	.advantages {
+		background: #F3F3F3;
+	}
+	.bottom-mobile {
+		padding-top: 30px;
+		text-align: center;
+	}
+	.btn-main {
+		padding: 0 65px;
+	}
+	.footer__bottom {
+		padding: 15px 0;
+		margin-top: 75px;
+		position: relative;
+		width: 100%;
+		height: initial;
+		writing-mode: initial;
+	}
+	.footer {
+		padding-top: 50px;
+		font-size: 14px;
+		padding-right: 0;
+		padding-bottom: 0;
+	}
+	.contact-item .icon-main {
+		display: flex;
+	}
+	.contact-item {
+		margin-top: 22px;
+	}
+	.row__footer-bottom {
+		margin-top: 0;
+	}
+	.footer__nav {
+		font-size: 14px;
+		margin-top: 30px;
+		margin-bottom: 8px;
+		white-space: normal;
+	}
+
+	.left-slider .slider-count {
+		color: #15615C;
+	}
+	.left-slider .slick-arrow path {
+		fill: #15615C;
+	}
+	body {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	form .btn-main {
+		width: 100%;
+	}
+	.registraton-section .btn-main {
+		margin-top: 20px;
+	}
+	.descr-title {
+		margin-top: 15px;
+		margin-bottom: 29px;
+		opacity: 0.8;
+		text-align: center;
+	}
+	.bottom-email {
+		margin-top: -8px;
+	}
+	.billbord_purchase .container-fluid {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	.billbord_purchase {
+		padding-right: 0;
+	}
+	.billbord_purchase .title-big div:nth-child(2), .billbord_purchase .title-big {
+    font-size: 19px;
+    line-height: 39px;
+}
+.billbord_purchase .title-big div:nth-child(3) {
+    font-size: 30px;
+}
+.breadcumbs-wrap {
+	padding: 14px 0px;
+}
+.mortgage {
+	padding-left: 0;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.image-mortgage {
+	max-width: 100%;
+}
+.mortgage-block {
+	    padding: 30px 25px;
+	margin: 0;
+}
+.mortgage-block__wrap {
+	margin-bottom: 40px;
+}
+.mortgage .title-section {
+	margin-bottom: 20px;
+}
+.row_banks {
+	margin-top: 30px;
+}
+.item-mortgage .mortgage-block {
+	margin: 0;
+}
+.item-mortgage__info {
+	padding-left: 15px;
+	padding-top: 30px;
+}
+.item-mortgage .title-section {
+	font-size: 25px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.item-mortgage p {
+	margin-bottom: 25px;
+}
+.item-mortgage:nth-child(even) .item-mortgage__info {
+	padding-left: 15px;
+	order: 2;
+}
+.item-mortgage {
+	margin-bottom: 40px;
+}
+.filter-main {
+	padding-top: 100px;
+	padding-right: 0;
+}
+.filter-main .title-section {
+    font-size: 26px;
+    }
+    .header_page .header__wrap {
+    	padding-right: 60px;
+    }
+    .filter-main .item-form {
+    	margin-top: 20px;
+    }
+    .filter-main .checkbox {
+    	font-size: 14px;
+    }
+    .bottom-filter {
+    	margin-top: 30px;
+    	flex-wrap: wrap;
+    }
+    .result-filter {
+    	margin: 0;
+    	margin-bottom: 15px;
+    	text-align: center;
+    	width: 100%;
+    	order: -1;
+    }
+    .result-filter .title-section {
+    	font-size: 40px;
+    }
+    .bottom-filter .btn-main {
+    	font-size: 11px;
+    	width: 49%;
+    }
+    .close-filter {
+    	right: 45px;
+    }
+    .catalog .title-section {
+    	padding-bottom: 30px;
+    }
+    .catalog .container-fluid {
+    	padding-left: 45px;
+    	padding-right: 45px;
+    }
+    .item-catalog__name {
+    	margin-bottom: 25px;
+    }
+    .tags-catalog a {
+    font-size: 10px;
+    padding: 0px 12px;
+    margin-bottom: 7px;
+}
+.tags-catalog li {
+    margin-right: 4px;
+}
+.tags-catalog {
+	padding-right: 0;
+}
+.item-catalog {
+	padding-bottom: 40px;
+}
+.page-numbers {
+    font-size: 30px;
+    line-height: 51px;
+    }
+    .page-numbers img {
+    	max-width: 40px;
+    }
+    .page-numbers.prev {
+    	margin-right: 10px;
+    }
+    .page-numbers.next {
+    	margin-left: 10px;
+    }
+    .pager {
+    	justify-content: center;
+    }
+    .item-catalog__btn {
+    	width: 40px;
+    	height: 40px;
+    }
+    .item-catalog__btn img {
+    	max-width: 14px;
+    }
+    .filter-main {
+    	padding-bottom: 80px;
+    }
+    .modal-wrap {
+    	background-image: none;
+    }
+    .title-modal {
+    font-size: 31px;
+    line-height: 39px;
+    padding-bottom: 25px;
+}
+.title-modal sup {
+    font-size: 16px;
+    }
+    .modal-form {
+    	margin-top: 25px;
+    }
+    .modal-wrap {
+    	padding: 40px 20px;
+    }
+    .block-modal {
+    	padding: 25px;
+    }
+    .block-modal__features {
+    	display: block;
+    }
+    .block-modal__features .feature-line {
+    	width: 100%;
+    }
+    .block-modal__features .feature-line_price {
+    	top: 0;
+    	padding-top: 10px;
+    }
+    .title-form {
+    	padding-bottom: 20px;
+    }
+    .modal-wrap_min .modal-form {
+    	margin-top: 0;
+    }
+}
+@media only screen and (max-width : 768px) {
+
+}
+@media only screen and (max-width : 600px) {
+	.billbord {
+		background-position: center;
+	}
+	.slide-billbord__image {
+		height: 365px;
+	}
+	.item-blog__image {
+		height: 250px;
+	}
+	.item-bank {
+		height: 88px;
+	}
+	.item-mortgage__image {
+		height: 285px;
+	}
+	.item-catalog__image {
+		height: 260px;
+	}
+}
+/* Small Devices, Tablets */
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.title-modal {
+    font-size: 25px;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.title-modal sup {
+    font-size: 12px;
+}
+}
+@media only screen and (max-width : 380px) {
+	.catalog .container-fluid,
+	.billbord_purchase .container-fluid,
+	.container, .container-fluid {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.slide-billbord__right {
+		padding-left: 20px;
+	}
+	.logo img {
+		width: 126px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.bottom-mobile {
+		display: none;
+	}
+	.section-mobile {
+		display: none;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		max-width: 1280px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1280px;
+	}
+}
+@media (min-width: 1800px) {
+	.container-fluid {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
