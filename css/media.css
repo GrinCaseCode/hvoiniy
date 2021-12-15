@@ -3,7 +3,7 @@
 	.filter-main {
 		padding-right: 260px;
 	}
-	}
+}
 @media only screen and (max-width : 1750px) {
 	.slide-billbord__right {
 		margin-left: 0;
@@ -81,16 +81,16 @@
 		font-size: 14px;
 	}
 	.filter-main {
-    padding-right: 233px;
-}
-.close-filter {
-	right: 130px;
-	bottom: 30px;
-}
-.catalog .container-fluid {
-	padding-left: 60px;
-	padding-right: 60px;
-}
+		padding-right: 233px;
+	}
+	.close-filter {
+		right: 130px;
+		bottom: 30px;
+	}
+	.catalog .container-fluid {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
 }
 @media only screen and (max-width : 1500px) {
 	.item-mortgage .mortgage-block {
@@ -168,62 +168,62 @@
 		padding: 20px 0;
 	}
 	.billbord_purchase .title-big div:nth-child(2), .billbord_purchase .title-big {
-    font-size: 29px;
-    line-height: 51px;
-}
-.billbord_purchase .title-big div:nth-child(3) {
-    font-size: 40px;
-}
-.billbord p {
-	font-size: 14px;
-	line-height: 23px;
-	margin-bottom: 15px;
-}
-.billbord_purchase {
-	padding-top: 150px;
-}
-.row_banks {
-	margin: 0 -7px;
-}
-.row_banks > div {
-	padding: 0 7px;
-}
-.item-bank {
-	height: 125px;
-	margin-bottom: 14px;
-}
-.item-mortgage .mortgage-block {
-	margin-right: -35px;
-}
-.item-mortgage .mortgage-block__value {
-    font-size: 36px;
-}
-.item-mortgage .mortgage-block {
-    padding: 20px;
-}
-.filter-main {
-	padding-right: 130px;
-	padding-bottom: 104px;
-	padding-left: 0;
-}
-.filter-main .checkbox {
-    font-size: 12px;
-    margin-bottom: 25px;
-}
-.catalog .container-fluid {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.catalog {
-	padding-top: 50px;
-}
-.tags-catalog {
-	padding-right: 36px;
-}
-.tags-catalog a {
-	font-size: 11px;
-	padding: 0 17px;
-}
+		font-size: 29px;
+		line-height: 51px;
+	}
+	.billbord_purchase .title-big div:nth-child(3) {
+		font-size: 40px;
+	}
+	.billbord p {
+		font-size: 14px;
+		line-height: 23px;
+		margin-bottom: 15px;
+	}
+	.billbord_purchase {
+		padding-top: 150px;
+	}
+	.row_banks {
+		margin: 0 -7px;
+	}
+	.row_banks > div {
+		padding: 0 7px;
+	}
+	.item-bank {
+		height: 125px;
+		margin-bottom: 14px;
+	}
+	.item-mortgage .mortgage-block {
+		margin-right: -35px;
+	}
+	.item-mortgage .mortgage-block__value {
+		font-size: 36px;
+	}
+	.item-mortgage .mortgage-block {
+		padding: 20px;
+	}
+	.filter-main {
+		padding-right: 130px;
+		padding-bottom: 104px;
+		padding-left: 0;
+	}
+	.filter-main .checkbox {
+		font-size: 12px;
+		margin-bottom: 25px;
+	}
+	.catalog .container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.catalog {
+		padding-top: 50px;
+	}
+	.tags-catalog {
+		padding-right: 36px;
+	}
+	.tags-catalog a {
+		font-size: 11px;
+		padding: 0 17px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -274,40 +274,40 @@
 		margin: 0;
 	}
 	.mortgage-block__value {
-    font-size: 44px;
-    line-height: 58px;
-}
-.mortgage {
-	padding-left: 25px;
-}
-.item-mortgage .mortgage-block__value {
-    font-size: 31px;
-}
-.item-mortgage {
-	font-size: 14px;
-	line-height: 23px;
-}
-.item-mortgage:nth-child(even) .item-mortgage__info {
-    padding-left: 100px;
-}
-.item-mortgage .title-section {
-    font-size: 38px;
-    line-height: 53px;
-}
-.mortgage-block {
-	margin-top: -10px;
-	margin-left: 15px;
-}
-.irs--flat .irs-grid-text {
-	font-size: 14px;
-}
-.result-filter {
-	margin-right: 15px;
-}
-.bottom-filter .btn-main i {
-	margin-right: 15px;
-	margin-left: -15px;
-}
+		font-size: 44px;
+		line-height: 58px;
+	}
+	.mortgage {
+		padding-left: 25px;
+	}
+	.item-mortgage .mortgage-block__value {
+		font-size: 31px;
+	}
+	.item-mortgage {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.item-mortgage:nth-child(even) .item-mortgage__info {
+		padding-left: 100px;
+	}
+	.item-mortgage .title-section {
+		font-size: 38px;
+		line-height: 53px;
+	}
+	.mortgage-block {
+		margin-top: -10px;
+		margin-left: 15px;
+	}
+	.irs--flat .irs-grid-text {
+		font-size: 14px;
+	}
+	.result-filter {
+		margin-right: 15px;
+	}
+	.bottom-filter .btn-main i {
+		margin-right: 15px;
+		margin-left: -15px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -498,182 +498,185 @@
 		padding-right: 0;
 	}
 	.billbord_purchase .title-big div:nth-child(2), .billbord_purchase .title-big {
-    font-size: 17px;
-    line-height: 35px;
-}
-.billbord_purchase .title-big div:nth-child(3) {
-    font-size: 25px;
-}
-.breadcumbs-wrap {
-	padding: 14px 0px;
-}
-.mortgage {
-	padding-left: 0;
-	padding-top: 40px;
-	padding-bottom: 30px;
-}
-.image-mortgage {
-	max-width: 100%;
-}
-.mortgage-block {
-	    padding: 30px 25px;
-	margin: 0;
-}
-.mortgage-block__wrap {
-	margin-bottom: 40px;
-}
-.mortgage .title-section {
-	margin-bottom: 20px;
-}
-.row_banks {
-	margin-top: 30px;
-}
-.item-mortgage .mortgage-block {
-	margin: 0;
-}
-.item-mortgage__info {
-	padding-left: 15px;
-	padding-top: 30px;
-}
-.item-mortgage .title-section {
-	font-size: 25px;
-	line-height: 30px;
-	text-align: left;
-	margin-bottom: 20px;
-}
-.item-mortgage p {
-	margin-bottom: 25px;
-}
-.item-mortgage:nth-child(even) .item-mortgage__info {
-	padding-left: 15px;
-	order: 2;
-}
-.item-mortgage {
-	margin-bottom: 40px;
-}
-.filter-main {
-	padding-top: 100px;
-	padding-right: 0;
-}
-.filter-main .title-section {
-    font-size: 26px;
-    }
-    .header_page .header__wrap {
-    	padding-right: 60px;
-    }
-    .filter-main .item-form {
-    	margin-top: 20px;
-    }
-    .filter-main .checkbox {
-    	font-size: 14px;
-    }
-    .bottom-filter {
-    	margin-top: 30px;
-    	flex-wrap: wrap;
-    }
-    .result-filter {
-    	margin: 0;
-    	margin-bottom: 15px;
-    	text-align: center;
-    	width: 100%;
-    	order: -1;
-    }
-    .result-filter .title-section {
-    	font-size: 40px;
-    }
-    .bottom-filter .btn-main {
-    	font-size: 11px;
-    	width: 49%;
-    }
-    .close-filter {
-    	right: 45px;
-    }
-    .catalog .title-section {
-    	padding-bottom: 30px;
-    }
-    .catalog .container-fluid {
-    	padding-left: 45px;
-    	padding-right: 45px;
-    }
-    .item-catalog__name {
-    	margin-bottom: 25px;
-    }
-    .tags-catalog a {
-    font-size: 10px;
-    padding: 0px 12px;
-    margin-bottom: 7px;
-}
-.tags-catalog li {
-    margin-right: 4px;
-}
-.tags-catalog {
-	padding-right: 0;
-}
-.item-catalog {
-	padding-bottom: 40px;
-}
-.page-numbers {
-    font-size: 30px;
-    line-height: 51px;
-    }
-    .page-numbers img {
-    	max-width: 40px;
-    }
-    .page-numbers.prev {
-    	margin-right: 10px;
-    }
-    .page-numbers.next {
-    	margin-left: 10px;
-    }
-    .pager {
-    	justify-content: center;
-    }
-    .item-catalog__btn {
-    	width: 40px;
-    	height: 40px;
-    }
-    .item-catalog__btn img {
-    	max-width: 14px;
-    }
-    .filter-main {
-    	padding-bottom: 80px;
-    }
-    .modal-wrap {
-    	background-image: none;
-    }
-    .title-modal {
-    font-size: 31px;
-    line-height: 39px;
-    padding-bottom: 25px;
-}
-.title-modal sup {
-    font-size: 16px;
-    }
-    .modal-form {
-    	margin-top: 25px;
-    }
-    .modal-wrap {
-    	padding: 40px 20px;
-    }
-    .block-modal {
-    	padding: 25px;
-    }
-    .block-modal__features {
-    	display: block;
-    }
-    .block-modal__features .feature-line {
-    	width: 100%;
-    }
-    .block-modal__features .feature-line_price {
-    	top: 0;
-    	padding-top: 10px;
-    }
-    .title-form {
-    	padding-bottom: 20px;
-    }
-    .modal-wrap_min .modal-form {
-    	margin-top: 0;
-    }
+		font-size: 17px;
+		line-height: 35px;
+	}
+	.billbord_purchase .title-big div:nth-child(3) {
+		font-size: 25px;
+	}
+	.billbord_purchase .title-big {
+		margin-bottom: 15px;
+	}
+	.breadcumbs-wrap {
+		padding: 14px 0px;
+	}
+	.mortgage {
+		padding-left: 0;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.image-mortgage {
+		max-width: 100%;
+	}
+	.mortgage-block {
+		padding: 30px 25px;
+		margin: 0;
+	}
+	.mortgage-block__wrap {
+		margin-bottom: 40px;
+	}
+	.mortgage .title-section {
+		margin-bottom: 20px;
+	}
+	.row_banks {
+		margin-top: 30px;
+	}
+	.item-mortgage .mortgage-block {
+		margin: 0;
+	}
+	.item-mortgage__info {
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+	.item-mortgage .title-section {
+		font-size: 25px;
+		line-height: 30px;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	.item-mortgage p {
+		margin-bottom: 25px;
+	}
+	.item-mortgage:nth-child(even) .item-mortgage__info {
+		padding-left: 15px;
+		order: 2;
+	}
+	.item-mortgage {
+		margin-bottom: 40px;
+	}
+	.filter-main {
+		padding-top: 100px;
+		padding-right: 0;
+	}
+	.filter-main .title-section {
+		font-size: 26px;
+	}
+	.header_page .header__wrap {
+		padding-right: 60px;
+	}
+	.filter-main .item-form {
+		margin-top: 20px;
+	}
+	.filter-main .checkbox {
+		font-size: 14px;
+	}
+	.bottom-filter {
+		margin-top: 30px;
+		flex-wrap: wrap;
+	}
+	.result-filter {
+		margin: 0;
+		margin-bottom: 15px;
+		text-align: center;
+		width: 100%;
+		order: -1;
+	}
+	.result-filter .title-section {
+		font-size: 40px;
+	}
+	.bottom-filter .btn-main {
+		font-size: 11px;
+		width: 49%;
+	}
+	.close-filter {
+		right: 45px;
+	}
+	.catalog .title-section {
+		padding-bottom: 30px;
+	}
+	.catalog .container-fluid {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	.item-catalog__name {
+		margin-bottom: 25px;
+	}
+	.tags-catalog a {
+		font-size: 10px;
+		padding: 0px 12px;
+		margin-bottom: 7px;
+	}
+	.tags-catalog li {
+		margin-right: 4px;
+	}
+	.tags-catalog {
+		padding-right: 0;
+	}
+	.item-catalog {
+		padding-bottom: 40px;
+	}
+	.page-numbers {
+		font-size: 30px;
+		line-height: 51px;
+	}
+	.page-numbers img {
+		max-width: 40px;
+	}
+	.page-numbers.prev {
+		margin-right: 10px;
+	}
+	.page-numbers.next {
+		margin-left: 10px;
+	}
+	.pager {
+		justify-content: center;
+	}
+	.item-catalog__btn {
+		width: 40px;
+		height: 40px;
+	}
+	.item-catalog__btn img {
+		max-width: 14px;
+	}
+	.filter-main {
+		padding-bottom: 80px;
+	}
+	.modal-wrap {
+		background-image: none;
+	}
+	.title-modal {
+		font-size: 31px;
+		line-height: 39px;
+		padding-bottom: 25px;
+	}
+	.title-modal sup {
+		font-size: 16px;
+	}
+	.modal-form {
+		margin-top: 25px;
+	}
+	.modal-wrap {
+		padding: 40px 20px;
+	}
+	.block-modal {
+		padding: 25px;
+	}
+	.block-modal__features {
+		display: block;
+	}
+	.block-modal__features .feature-line {
+		width: 100%;
+	}
+	.block-modal__features .feature-line_price {
+		top: 0;
+		padding-top: 10px;
+	}
+	.title-form {
+		padding-bottom: 20px;
+	}
+	.modal-wrap_min .modal-form {
+		margin-top: 0;
+	}
 }
 @media only screen and (max-width : 768px) {
 
@@ -703,14 +706,14 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-.title-modal {
-    font-size: 25px;
-    line-height: 32px;
-    padding-bottom: 20px;
-}
-.title-modal sup {
-    font-size: 12px;
-}
+	.title-modal {
+		font-size: 25px;
+		line-height: 32px;
+		padding-bottom: 20px;
+	}
+	.title-modal sup {
+		font-size: 12px;
+	}
 }
 @media only screen and (max-width : 380px) {
 	.catalog .container-fluid,
