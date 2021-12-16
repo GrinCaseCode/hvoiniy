@@ -92,6 +92,9 @@
 		padding-right: 60px;
 	}
 }
+
+
+
 @media only screen and (max-width : 1500px) {
 	.item-mortgage .mortgage-block {
 		margin-left: 15px;
@@ -117,6 +120,8 @@
 		padding: 30px;
 	}
 }
+
+
 @media only screen and (max-width : 1400px) {
 	.footer__nav {
 		font-size: 13px;
@@ -309,6 +314,8 @@
 		margin-left: -15px;
 	}
 }
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -678,6 +685,8 @@
 		margin-top: 0;
 	}
 }
+
+
 @media only screen and (max-width : 768px) {
 
 }
