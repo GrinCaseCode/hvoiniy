@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+</head>
+<body>
+ 
+	<div class="wrapper">
+
+		<header class="header header_page">
+			<div class="container-fluid">
+				<div class="header__wrap">
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<div class="header-center">
+						<div class="header-center__left">
+							<a href="tel:83462550086" class="phone-main">8 3462 55-00-86</a>
+							<a href="mailto:sav@sfksgs.ru" class="link-page">sav@sfksgs.ru </a>
+						</div>
+						<a href="#modal-callback" class="btn-main btn-main_transparent fancybox">Заказать звонок</a>
+					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+							<span class='sw-down'></span>
+						</span>
+					</span>
+				</div>
+				<div class="menu-wrap">
+					<ul class="menu">
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">проект</a></li>
+						<li><a href="#">Квартиры</a></li>
+						<li><a href="#">Способы покупки</a></li>
+						<li><a href="#">контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div class="filter-main">
+			<div class="container-fluid">
+				<h1 class="title-section">выбрать квартиру</h1>
+				<form>
+					<div class="row row_filter">
+						<div class="col-lg-3">
+							<div class="item-form item-form_page">
+								<div class="title-input">дом</div>
+								<select>
+									<option value="1">Любой</option>
+									<option value="1">Любой</option>
+									<option value="1">Любой</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="item-form item-form_page">
+								<div class="title-input">комнатность</div>
+								<div class="range-catalog range-catalog_room">
+									<input type="text" class="range-catalog__input" name="my_range" value="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="item-form item-form_page">
+								<div class="title-input">этаж</div>
+								<div class="range-catalog range-catalog_floors">
+									<input type="text" class="range-catalog__input" name="my_range" value="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="item-form item-form_page">
+								<div class="title-input">площадь, м<sup>2</sup></div>
+								<div class="range-catalog range-catalog_area">
+									<input type="text" class="range-catalog__input" name="my_range" value="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="item-form item-form_checkboxes">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="checkbox checkbox_green">
+											<label>
+												<input type="checkbox" />
+												<span>Акция</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Высокие потолки</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Большой балкон</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Окна на 2 стороны</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" checked="checked" />
+												<span>Окна на 3 стороны</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Прачечная</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Панорамные окна</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Тёплая лоджия</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" checked="checked" />
+												<span>Гардеробная</span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="item-form item-form_price">
+										<div class="title-input">стоимость, Р</div>
+										<div class="range-catalog range-catalog_price">
+											<input type="text" class="range-catalog__input" name="my_range" value="" />
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="item-form item-form_page">
+										<div class="title-input">срок сдачи</div>
+										<select>
+											<option value="1">2022 год</option>
+											<option value="1">2023 год</option>
+											<option value="1">2024 год</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="bottom-filter">
+								<button class="btn-main btn-main_page"><i class="fal fa-times"></i> Сбросить</button>
+								<div class="result-filter">найдено: <span class="title-section">32</span></div>
+								<button class="btn-main">показать варианты</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<a href="#" class="close-filter">скрыть <img src="img/ic_link.svg" alt="alt"></a>
+		</div>
+
+		<div class="breadcumbs-wrap">
+			<div class="container-fluid">
+				<ul class="breadcumbs">
+					<li><a href="#">Главная</a></li>
+					<li>Подбор квартир по параметрам </li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="catalog">
+			<div class="container-fluid">
+				<h2 class="title-section">Подобраны следующие варианты:</h2>
+				<div class="row row_catalog">
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#modal-reservation" class="item-catalog__name fancybox">1К, Дом 1, 49,65 м<sup>2</sup> <img src="img/ic_down.svg" alt="alt"></a>
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+							<a href="#modal-reservation" class="item-catalog__image fancybox">
+								<img src="img/catalog1.png" alt="alt">
+							</a>
+							<ul class="tags-catalog">
+								<li><a href="#">видовая</a></li>
+								<li><a href="#">высокие потолки</a></li>
+								<li><a href="#">панорамные окна</a></li>
+							</ul>
+							<a href="#modal-reservation" class="item-catalog__btn fancybox">
+								<img src="img/ic_link2.svg" alt="alt">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="pager">
+					<a class="prev page-numbers disabled" href="#"><img src="img/prev.svg" alt="alt"></a> 
+					<a class="page-numbers" href="#">1</a> 
+					<a class="page-numbers" href="#">2</a> 
+					<span aria-current="page" class="page-numbers current" href="#">3</span> 
+					<span class="page-numbers dots">…</span> 
+					<a class="page-numbers" href="#">10</a> 
+					<a class="next page-numbers" href="#"><img src="img/next.svg" alt="alt"></a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 footer__left">
+						<a href="#" class="logo">
+							<img src="img/logo2.png" alt="alt">
+						</a>
+						<div class="footer__text">
+							<p>Любая информация, представленная на данном сайте носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ</p>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<ul class="footer__nav">
+							<li><a href="#">Проект</a></li>
+							<li><a href="#">Квартиры</a></li>
+							<li><a href="#">Способы покупки</a></li>
+							<li><a href="#">О КОМПАНИИ</a></li>
+							<li><a href="#">Официальные документы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 footer__right">
+						<p>ООО специализированный застройщик «Строй Актив»</p>
+						<br>
+						<div class="row">
+							<div class="col-6">
+								<p>ХМАО – Югра, г. Сургут, <br>пр-т Ленина 43</p>
+							</div>
+							<div class="col-6">
+								<div class="requisites">
+									<p>ОГРН 1188617014992</p>
+									<p>ИНН 8602288976</p>
+								</div>
+							</div>
+						</div>
+						<div class="row row__footer-bottom">
+							<div class="col-md-6">
+								<a href="#" class="contact-item">
+									<span class="icon-main">
+										<img src="img/ic_insta.svg" alt="alt">
+									</span>
+									<span class="link-page">@stroyaktiv_86</span>
+								</a>
+							</div>
+							<div class="col-md-6">
+								<div class="wrap-cont">
+									<a href="#" class="contact-item">
+										<span class="icon-main">
+											<img src="img/ic_phone.svg" alt="alt">
+										</span>
+										<span class="phone-main">8 3462 55-00-86</span>
+									</a>
+									<div class="bottom-email">
+										<a href="mailto:sav@sfksgs.ru" class="link-page">sav@sfksgs.ru</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<ul class="footer__menu">
+					<li>Simferopol © Copyright 2021</li>
+					<li>Сделано в SHEER</li>
+				</ul>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="modal-reservation" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">1К, Дом 1, 49,65 м<sup>2</sup></div>
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="block-modal">
+						<div class="block-modal__features">
+							<div class="feature-line">
+								<span>Этаж:</span>
+								<strong>4 из 4</strong>
+							</div>
+							<div class="feature-line">
+								<span>Площадь:</span>
+								<strong>49,65 м²</strong>
+							</div>
+							<div class="feature-line">
+								<span>Срок сдачи:</span>
+								<strong> 4 кв 2022 года</strong>
+							</div>
+							<div class="feature-line feature-line_price">
+								<span>Стоимость:</span>
+								<strong class="feature-line__price">18 000 000 ₽</strong>
+							</div>
+						</div>
+						<div class="block-modal__image">
+							<img src="img/modal_img1.jpg" alt="alt">
+						</div>
+						<ul class="tags-catalog">
+							<li><a href="#">видовая</a></li>
+							<li><a href="#">высокие потолки</a></li>
+							<li><a href="#">панорамные окна</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="modal-form">
+						<div class="title-form">Заявка <br>на болнирование</div>
+						<form>
+							<div class="item-form">
+								<input type="text" placeholder="Ваше имя" required="required">
+							</div>
+							<div class="item-form">
+								<input type="text" placeholder="Телефон" class="input-phone" required="required">
+							</div>
+							<div class="agree-form">Нажимая на кнопку, вы принимаете политику конфиденциальности и даете согласие на обработку персональных данных</div>
+							<button class="btn-main btn-main_page">Забронировать квартиру</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-callback" class="modal-block">
+		<div class="modal-wrap modal-wrap_min">
+			<div class="title-form">Получить консультацию</div>
+			<div class="modal-form">
+				<form>
+					<div class="item-form">
+						<input type="text" placeholder="Ваше имя" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="Телефон" class="input-phone" required="required">
+					</div>
+					<div class="agree-form">Нажимая на кнопку, вы принимаете политику конфиденциальности и даете согласие на обработку персональных данных</div>
+					<button class="btn-main btn-main_page">отправить заявку</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.2"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
