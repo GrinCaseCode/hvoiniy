@@ -178,6 +178,54 @@ $(".item-question__head").click(function() {
 		} 
 	});
 
+	$('.slider-team').each(function(){
+		var $slider = $(this);
+		$controls_slider = $(this).parent().parent().find(".bottom-slider").find(".slider-controls");
+
+		if ($slider.length) {
+			var currentSlide;
+			var slidesCount;
+			var sliderCounter = document.createElement('div');
+			sliderCounter.classList.add('slider__counter');
+
+			var updateSliderCounter = function(slick, currentIndex) {
+				currentSlide = slick.slickCurrentSlide() + 1;
+				slidesCount = slick.slideCount;
+				$(sliderCounter).html('<span>'+currentSlide + '/' +slidesCount+ '')
+			};
+
+			$slider.on('init', function(event, slick) {
+				$(this).parent().parent().find(".bottom-slider").find('.slider-count').append(sliderCounter);
+				updateSliderCounter(slick);
+				$(this).parent().parent().find(".bottom-slider").find(".slider_number").text(slick.slideCount);
+			});
+
+			$slider.on('afterChange', function(event, slick, currentSlide) {
+				updateSliderCounter(slick, currentSlide);
+			});
+
+			$slider.slick({
+				arrows: true,
+				dots: false,
+				prevArrow: '<div class="slick-prev slick-arrow"><svg width="61" height="16" viewBox="0 0 61 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM61 9H1V7H61V9Z" fill="#438C87"/></svg><div/>',
+				nextArrow: '<div class="slick-next slick-arrow"><svg width="61" height="16" viewBox="0 0 61 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3431 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3431 15.0711L60.7071 8.70711ZM0 9H60V7H0V9Z" fill="#438C87"/></svg><div/>',
+				infinite: false,
+				slidesToScroll: 1,
+				slidesToShow: 3,
+				appendArrows: $controls_slider,
+				appendDots: $controls_slider,
+				responsive: [
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 1,
+					}
+				}
+				]
+			});
+		} 
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
