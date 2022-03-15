@@ -1122,6 +1122,10 @@
 	.title-modal sup {
 		font-size: 12px;
 	}
+	.contacts-info .title-page {
+    font-size: 24px;
+    line-height: 36px;
+}
 }
 @media only screen and (max-width : 380px) {
 	.contacts .container-fluid,
