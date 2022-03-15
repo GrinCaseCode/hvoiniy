@@ -178,6 +178,8 @@ $(".item-question__head").click(function() {
 		} 
 	});
 
+	/*new pages*/
+
 	$('.slider-team').each(function(){
 		var $slider = $(this);
 		$controls_slider = $(this).parent().parent().find(".bottom-slider").find(".slider-controls");

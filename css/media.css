@@ -40,7 +40,7 @@
 	}
 	.slider-advantages .item-blog {
 		margin: 0 20px;
-	}
+	} 
 	.billbord_purchase {
 		padding-right: 100px;
 	}
@@ -132,6 +132,49 @@
 	.billbord_about p {
 		max-width: 600px;
 	}
+	.contacts .container-fluid {
+    padding: 0 75px;
+}
+.contacts-info {
+    padding: 60px 65px;
+    }
+    .row_contact-right .contacts-info {
+    background-position: right 80px bottom;
+}
+.title-middle {
+    font-size: 22px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    }
+    .phone-contact {
+    	font-size: 22px;
+    }
+    .sign-up {
+    padding-top: 44px;
+    padding-left: 45px;
+    padding-right: 0px;
+}
+.sign-up .title-section {
+	font-size: 44px;
+    line-height: 60px;
+    padding-bottom: 15px;
+}
+.person-signup img {
+	max-width: 400px;
+}
+.sign-up .checkbox {
+    font-size: 11px;
+    }
+    .person-signup__info {
+    padding: 34px 45px;
+    max-width: 361px;
+    margin-right: -170px;
+    margin-bottom: 44px;
+}
+.contacts-info .title-page {
+	    font-size: 33px;
+    line-height: 45px;
+}
 }
 
 
@@ -173,6 +216,20 @@
 	.documents {
 		padding-top: 65px;
 	}
+	.contacts-info {
+    padding: 50px 45px;
+}
+.descr-signup {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.sign-up .title-section {
+    font-size: 38px;
+    line-height: 46px;
+    }
+    .sign-up .checkbox label > span {
+    	padding-left: 43px;
+    }
 }
 
 
@@ -338,6 +395,40 @@
     font-size: 17px;
     margin-top: 35px;
 }
+.contacts-info {
+	font-size: 13px;
+	line-height: 19px;
+}
+.phone-contact {
+    font-size: 20px;
+}
+.title-middle {
+    font-size: 21px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.person-signup img {
+    max-width: 340px;
+}
+.person-signup__info {
+    padding: 25px 26px;
+    max-width: 320px;
+    margin-right: -157px;
+    margin-bottom: 16px;
+}
+.sign-up .title-section {
+    font-size: 33px;
+    line-height: 41px;
+}
+.descr-signup {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.title-middle {
+    font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 }
 
 /* Large Devices, Wide Screens */
@@ -450,6 +541,28 @@
 }
 .billbord_about p {
     max-width: 385px;
+}
+.title-page {
+    font-size: 34px;
+    line-height: 48px;
+    margin-bottom: 22px;
+    }
+    .contacts-info {
+    padding: 50px 20px;
+}
+.row_contacts {
+	margin-bottom: 40px;
+}
+.person-signup {
+	margin-top: 20px;
+	justify-content: center;
+}
+.sign-up {
+	padding: 40px;
+	padding-bottom: 0;
+}
+.contacts {
+	padding-bottom: 50px;
 }
 }
 
@@ -908,6 +1021,57 @@
 .sandwich span {
     background: rgba(255, 255, 255, 0.6);
 }
+.contacts-info {
+	padding-top: 20px;
+	min-height: initial;
+}
+.map-contact > ymaps,
+.contacts iframe {
+	height: 400px !important;
+}
+.sign-up .btn-main {
+	margin-top: 20px;
+}
+.sign-up .title-section {
+	padding-top: 0;
+	    font-size: 28px;
+    line-height: 33px;
+}
+.descr-signup {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.wrapper_page {
+    padding-top: 68px;
+}
+.contacts .container-fluid {
+	padding: 0 45px;
+}
+.title-page {
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 15px;
+}
+.person-signup img {
+    max-width: 255px;
+}
+.person-signup__info {
+	    padding: 25px 17px;
+    max-width: 292px;
+    margin-right: -156px;
+	padding-right: 40px;
+}
+.person-signup__info p {
+    font-size: 11px;
+    line-height: 23px;
+    }
+    .person-signup__name {
+    font-size: 21px;
+    line-height: 27px;
+}
+.person-signup {
+	margin-right: -20px;
+}
 }
 
 
@@ -933,6 +1097,10 @@
 	.item-catalog__image {
 		height: 260px;
 	}
+	.contacts-info .title-page {
+    font-size: 26px;
+    line-height: 41px;
+}
 }
 /* Small Devices, Tablets */
 
@@ -949,6 +1117,7 @@
 	}
 }
 @media only screen and (max-width : 380px) {
+	.contacts .container-fluid,
 	.billbord_about .container-fluid,
 	.catalog .container-fluid,
 	.billbord_purchase .container-fluid,
@@ -962,6 +1131,35 @@
 	.logo img {
 		width: 126px;
 	}
+	.phone-contact {
+    font-size: 18px;
+}
+.contacts-info .contact-item {
+	margin-right: 5px;
+	margin-top: 0;
+}
+.sign-up {
+    padding: 20px;
+    padding-bottom: 0;
+}
+.person-signup img {
+    max-width: 228px;
+}
+.person-signup__info p {
+    font-size: 10px;
+    line-height: 20px;
+}
+.contacts-info {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.row_contact-right .contacts-info {
+	background-position: right bottom;
+}
+.contacts-info .title-page {
+    font-size: 24px;
+    line-height: 37px;
+}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

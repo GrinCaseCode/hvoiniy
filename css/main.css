@@ -21,7 +21,7 @@ body textarea:focus:required:invalid {
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	 
 }
 body {
 	font-family: 'Manrope';
@@ -1513,17 +1513,17 @@ select {
 }
 .item-team__title {
 	font-size: 25px;
-line-height: 33px;
-margin-bottom: 8px;
-font-family: 'Ruberoid';
-font-feature-settings: 'tnum' on, 'lnum' on;
+	line-height: 33px;
+	margin-bottom: 8px;
+	font-family: 'Ruberoid';
+	font-feature-settings: 'tnum' on, 'lnum' on;
 }
 .item-team p {
 	font-size: 12px;
-text-transform: uppercase;
-font-weight: 700;
-opacity: 0.8;
- font-family: 'Manrope';
+	text-transform: uppercase;
+	font-weight: 700;
+	opacity: 0.8;
+	font-family: 'Manrope';
 }
 .documents .container-fluid,
 .team .container-fluid {
@@ -1535,10 +1535,10 @@ opacity: 0.8;
 }
 .item-doc {
 	font-size: 25px;
-line-height: 24px;
-font-weight: 700;
-margin-top: 55px;
-color: #438C87;
+	line-height: 24px;
+	font-weight: 700;
+	margin-top: 55px;
+	color: #438C87;
 	display: inline-flex;
 	align-items: center;
 }
@@ -1552,4 +1552,167 @@ color: #438C87;
 }
 .item-doc:hover span {
 	border-color: transparent;
+}
+.contacts {
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.wrapper_page {
+	padding-top: 100px;
+}
+.wrapper_page .header {
+	padding: 18px 0;
+	background-color: #004645;
+}
+.contacts .container-fluid {
+	padding: 0 95px;
+}
+.contacts .title-section {
+	padding-bottom: 25px;
+}
+.contacts-info {
+	padding: 60px 85px;
+	min-height: 759px;
+	color: #fff;
+	background-color: #15615c;
+}
+.title-page {
+	font-size: 40px;
+line-height: 55px;
+margin-bottom: 35px;
+ font-family: 'Ruberoid';
+}
+.contacts-info li {
+	margin-bottom: 6px;
+	position: relative;
+	padding-left: 20px;
+}
+.contacts-info li::before {
+	position: absolute;
+	display: block;
+	content: "•";
+	top: 0;
+	left: 0;	
+}
+.title-middle {
+	font-size: 25px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+ font-family: 'Ruberoid';
+}
+.soc-link {
+	margin-right: 17px;
+	display: inline-block;
+}
+.phone-contact {
+	font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+color: #fff;
+}
+.contacts-info__contacts {
+	display: flex;
+	align-items: center;
+}
+.row_contact-right {
+	flex-direction: row-reverse;
+}
+.row_contacts {
+	margin: 0;
+	margin-bottom: 75px;
+}
+.row_contact-right .phone-contact {
+	font-weight: 600;
+	opacity: 0.8;
+}
+.contacts-info .link-page {
+	color: #fff;
+	opacity: 1;
+}
+.contacts-info .contact-item {
+	margin-right: 25px;
+}
+.row_contact-right .contacts-info {
+	background-image: url(../img/tree_contact.svg);
+	background-repeat: no-repeat;
+	background-position: right 170px bottom;
+}
+.contacts iframe {
+	height: 833px;
+}
+.row_contacts > div {
+	padding: 0;
+}
+.sign-up {
+	padding-top: 44px;
+	padding-left: 100px;
+	padding-right: 50px;
+	background-image: url(../img/tree_signup.svg);
+	background-repeat: no-repeat;
+	background-position: right 32% bottom 173px;
+	background-color: rgba(196, 196, 196, 0.2);
+}
+.sign-up .checkbox {
+	font-size: 12px;
+	color: #17171a;
+	font-weight: 500;
+}
+.sign-up .checkbox label input:checked + span {
+	font-weight: 500;
+}
+.sign-up .checkbox label > span:before {
+	width: 27px;
+	height: 27px;
+	background-color: #fff;
+}
+.sign-up .checkbox label > span:after {
+	width: 27px;
+	height: 27px;
+	left: 5px;
+	background-image: url(../img/check2.svg);
+}
+.sign-up .checkbox label > span {
+	padding-top: 4px;
+}
+.sign-up .btn-main {
+	width: 100%;
+	padding: 0 20px;
+}
+.descr-signup {
+	margin-bottom: 35px;
+}
+.person-signup__name {
+	font-size: 25px;
+line-height: 33px;
+margin-bottom: 9px;
+ font-family: 'Ruberoid';
+font-feature-settings: 'tnum' on, 'lnum' on;
+}
+.person-signup__info p {
+	font-size: 12px;
+line-height: 24px;
+font-weight: 700;
+text-transform: uppercase;
+opacity: 0.8;
+}
+.person-signup__info {
+	padding: 48px 65px;
+	max-width: 390px;
+	margin-right: -195px;
+	width: 100%;
+	margin-bottom: 47px;
+	flex: none;
+	color: #fff;
+	background-color: #438c87;
+}
+.person-signup {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.sign-up .title-section {
+	padding-top: 15px;
+}
+.map-contact > ymaps {
+	height: 833px !important;
 }
