@@ -1101,6 +1101,10 @@
     font-size: 26px;
     line-height: 41px;
 }
+.contacts .container-fluid {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 }
 /* Small Devices, Tablets */
 
