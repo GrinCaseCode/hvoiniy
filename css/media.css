@@ -1353,6 +1353,21 @@
 .section-project_3 { 
 	background-image: none;
 }
+.section-project_1 {
+	padding-bottom: 40px;
+}
+.section-project .title-section {
+    padding-bottom: 15px;
+}
+.section-project_2 {
+    padding-top: 30px;
+}
+.section-project_4 {
+	padding-bottom: 27px;
+}
+.section-project_5 {
+    padding-top: 30px;
+}
 }
 /* Small Devices, Tablets */
 
