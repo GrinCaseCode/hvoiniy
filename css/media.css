@@ -223,6 +223,12 @@
 .section-project {
     padding-left: 310px;
 }
+.text-layout {
+    margin-top: 35px;
+    margin-right: 35px;
+    padding-right: 30px;
+    max-height: 290px;
+    }
 }
 
 
@@ -662,6 +668,16 @@
 	.section-project {
     padding-left: 235px;
 }
+.modal-wrap-layout {
+    padding: 30px 30px;
+    }
+    .modal-fancybox .fancybox-close {
+    top: 30px;
+    right: 30px;
+    }
+    .block-project__right {
+    	padding-left: 0;
+    }
 }
 
 
@@ -1251,6 +1267,26 @@
 	padding: 0 20px;
 	padding-bottom: 15px;
 }
+.text-layout {
+	margin: 0;
+	margin-bottom: 25px;
+}
+.modal-fancybox .fancybox-close {
+    top: 14px;
+    right: 12px;
+}
+.modal-wrap-layout .title-modal {
+	padding-right: 40px;
+}
+.modal-wrap-layout {
+	padding-bottom: 20px;
+}
+.modal-wrap-layout_simple .block-project {
+    margin-bottom: 15px;
+}
+.col-lg-12 .text-layout {
+	margin: 0;
+}
 }
 
 
@@ -1394,6 +1430,21 @@
 }
 .section-project_8 {
 	padding-bottom: 30px;
+}
+.modal-wrap-layout {
+	padding: 30px 15px;
+}
+.text-layout {
+	padding-right: 15px;
+}
+.text-layout {
+	max-height: 302px;
+}
+.modal-wrap-layout .block-project {
+    margin-bottom: 60px;
+}
+.modal-wrap-layout_simple:last-child .block-project {
+    margin-bottom: 35px;
 }
 }
 @media only screen and (max-width : 380px) {

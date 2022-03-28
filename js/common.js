@@ -277,6 +277,15 @@ $(".item-question__head").click(function() {
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
 
+$(".fancybox-project").fancybox({
+  beforeShow : function(){
+    setTimeout(function () {
+      $('.modal-wrap-layout .slider-image').slick('setPosition');
+    }, 300); 
+    $(".fancybox-skin").addClass("modal-fancybox");
+    
+  }
+});
 
 	//Кнопка "Наверх"
 	//Документация:
